@@ -17,17 +17,18 @@
     position: absolute;
     right: 114px;
     top: -126px;
+    border-radius: 16px;
 }
 
 .about-us__text {
     width: calc(100% / 2);
 }
 
-.about-us__text-wrapper {
+.about-us__text .content {
     width: 75%;
 }
 
-.about-us__text-title {
+.content__title {
     padding-top: 60px;
     font-size: 20px;
     font-weight: 400;
@@ -38,7 +39,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.about-us__text-heading {
+.content__heading {
     margin-top: 48px;
     color: var(--white-color);
     font-size: 32px;
@@ -46,7 +47,7 @@
     letter-spacing: 3.36px;
 }
 
-.about-us__text-text {
+.content__text {
     margin-top: 28px;
     color: var(--gray-ligh-color);
     font-size: 16px;
@@ -109,7 +110,7 @@
 }
 
 @media (max-width: 425px) {
-    .about-us__text-wrapper {
+    .about-us__text .content {
         width: 100%;
         text-align: center;
     }

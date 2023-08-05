@@ -1,13 +1,13 @@
 .hero {
-    width: 100%;
     margin-top: 102px;
-    padding-top: 102px;
-    padding-left: 72px;
-    padding-bottom: 88px;
     display: flex;
     justify-content: space-between;
-    position: relative;
+}
+
+.hero__container {
     background-color: var(--black-ligh-color);
+    position: relative;
+    padding: 102px 0 88px 72px;
 }
 
 .hero__offer {
@@ -26,7 +26,7 @@
     margin-bottom: 52px;
 }
 
-.hero__offer-blockquote {
+.blockquote {
     display: flex;
     flex-direction: column;
     margin-bottom: 32px;

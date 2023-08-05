@@ -1,0 +1,122 @@
+.about-us {
+    width: 100%;
+    margin-top: 196px;
+    background-color: var(--black-ligh-color);
+}
+
+.about-us__wrapper {
+    display: flex;
+}
+
+.about-us__image {
+    width: calc(100% / 2);
+    position: relative;
+}
+
+.about-us__image-imgfile {
+    position: absolute;
+    right: 114px;
+    top: -126px;
+}
+
+.about-us__text {
+    width: calc(100% / 2);
+}
+
+.about-us__text-wrapper {
+    width: 75%;
+}
+
+.about-us__text-title {
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-us__text-heading {
+    margin-top: 48px;
+    color: var(--white-color);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3.36px;
+}
+
+.about-us__text-text {
+    margin-top: 28px;
+    color: var(--gray-ligh-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.04px;
+}
+
+.portfolio {
+    display: flex;
+    gap: 76px;
+    margin-top: 54px;
+}
+
+.portfolio__item {
+    max-width: 114px;
+}
+
+.portfolio__item::before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 2px;
+    top: -24px;
+    background: var(--gradient-color);
+}
+
+.portfolio__item-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.78px;
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.portfolio__item-value {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 43px;
+    letter-spacing: 2.08px;
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 78px;
+}
+
+@media (max-width: 1440px) {
+    .about-us__image {
+        display: none;
+    }
+    .about-us__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .about-us__text-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio {
+        display: flex;
+        gap: 76px;
+        margin-top: 54px;
+        justify-content: center;
+    }
+}

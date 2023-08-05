@@ -1,0 +1,40 @@
+.advantages {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages__item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 196px;
+}
+
+.advantages__item-description {
+    margin-top: 16px;
+    color: var(--white-dark-color);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.625px;
+}
+
+.advantages__item-text {
+    margin-top: 8px;
+    color: var(--white-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.17px;
+}
+
+@media (max-width: 425px) {
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+        gap: 46px 0;
+    }
+
+}

@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 425px) {
-    .hero {
+    .hero__container {
         padding: 60px 0;
         text-align: center;
     }

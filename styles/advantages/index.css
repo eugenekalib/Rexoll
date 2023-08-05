@@ -1,5 +1,8 @@
 .advantages {
     margin-top: 180px;
+}
+
+.advantages__container {
     display: flex;
     justify-content: space-around;
 }
@@ -31,10 +34,9 @@
 }
 
 @media (max-width: 425px) {
-    .advantages {
+    .advantages__container {
         flex-direction: column;
         align-items: center;
         gap: 46px 0;
     }
-
 }
